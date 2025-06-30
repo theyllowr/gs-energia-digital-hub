@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -25,8 +26,9 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: '#0C4B33',
+					foreground: '#FFFFFF',
+					dark: '#3AF58A'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -52,43 +54,51 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
-			},
-			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
-			},
-			keyframes: {
-				'accordion-down': {
-					from: {
-						height: '0'
+				gs: {
+					light: {
+						bg: '#FFFFFF',
+						text: '#0E0E0E',
+						accent: '#0C4B33'
 					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
-				},
-				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
+					dark: {
+						bg: '#0E0E0E',
+						text: '#F5F5F5',
+						accent: '#3AF58A'
 					}
 				}
+			},
+			fontFamily: {
+				inter: ['Inter', 'sans-serif']
+			},
+			fontSize: {
+				'responsive-xs': 'clamp(0.75rem, 2vw, 0.875rem)',
+				'responsive-sm': 'clamp(0.875rem, 2.5vw, 1rem)',
+				'responsive-base': 'clamp(1rem, 3vw, 1.125rem)',
+				'responsive-lg': 'clamp(1.125rem, 3.5vw, 1.25rem)',
+				'responsive-xl': 'clamp(1.25rem, 4vw, 1.5rem)',
+				'responsive-2xl': 'clamp(1.5rem, 5vw, 2rem)',
+				'responsive-3xl': 'clamp(1.875rem, 6vw, 2.5rem)',
+				'responsive-4xl': 'clamp(2.25rem, 7vw, 3rem)',
+				'responsive-5xl': 'clamp(3rem, 8vw, 4rem)'
 			},
 			animation: {
-				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'fade-up': 'fadeUp 0.6s ease-out forwards',
+				'counter': 'counter 2s ease-out forwards',
+				'parallax': 'parallax 20s linear infinite'
+			},
+			keyframes: {
+				fadeUp: {
+					'0%': { opacity: '0', transform: 'translateY(30px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				counter: {
+					'0%': { transform: 'scale(0.8)', opacity: '0' },
+					'100%': { transform: 'scale(1)', opacity: '1' }
+				},
+				parallax: {
+					'0%': { transform: 'translateY(0px)' },
+					'100%': { transform: 'translateY(-10px)' }
+				}
 			}
 		}
 	},

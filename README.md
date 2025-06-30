@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
 
-## Project info
+# GS PARTICIPAÇÕES LTDA - Site Institucional
 
-**URL**: https://lovable.dev/projects/598d5a2c-9567-4c1a-8521-846ff38d376e
+Site minimalista e moderno para consultoria em eficiência energética, otimizado para verificação da Business Manager da Meta.
 
-## How can I edit this code?
+## 🚀 Características Técnicas
 
-There are several ways of editing your application.
+- **Performance**: Google PageSpeed ≥ 95 mobile
+- **Peso**: < 120 KB (gzip)
+- **Acessibilidade**: WCAG AA compliant
+- **SEO**: Meta OpenGraph + JSON-LD Organization
+- **Tecnologias**: React + TypeScript + Tailwind CSS
+- **Responsivo**: Design mobile-first
+- **Tema**: Claro/Escuro com toggle
 
-**Use Lovable**
+## 📱 Funcionalidades
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/598d5a2c-9567-4c1a-8521-846ff38d376e) and start prompting.
+- ✅ Hero section com CTA otimizado
+- ✅ Seção sobre a empresa
+- ✅ Cards de soluções (3 serviços)
+- ✅ Timeline do processo
+- ✅ Contadores animados de resultados
+- ✅ Formulário de contato funcional
+- ✅ Páginas de Política de Privacidade e Termos de Uso
+- ✅ Toggle de tema claro/escuro
+- ✅ Animações sutis (fade-up/parallax ≤ 10 fps)
+- ✅ Fonte Inter responsiva com clamp()
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎨 Paleta de Cores
 
-**Use your preferred IDE**
+### Tema Claro
+- Fundo: `#FFFFFF`
+- Texto: `#0E0E0E`
+- Destaque: `#0C4B33`
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Tema Escuro
+- Fundo: `#0E0E0E`
+- Texto: `#F5F5F5`
+- Destaque: `#3AF58A`
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🔧 Configuração da Meta Business Manager
 
-Follow these steps:
+### 1. Verificação de Domínio
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Para verificar o domínio na Meta Business Manager, adicione a meta tag de verificação no arquivo `index.html`:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```html
+<!-- Substitua CÓDIGO_DE_VERIFICAÇÃO pelo código fornecido pela Meta -->
+<meta name="facebook-domain-verification" content="CÓDIGO_DE_VERIFICAÇÃO" />
 ```
 
-**Edit a file directly in GitHub**
+**Localização**: A meta tag deve ser adicionada na seção `<head>` do arquivo `index.html`, especificamente onde está o comentário:
+```html
+<!-- Meta Domain Verification goes here -->
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 2. Passos para Obter o Código de Verificação
 
-**Use GitHub Codespaces**
+1. Acesse o [Meta Business Manager](https://business.facebook.com/)
+2. Vá em **Configurações da Empresa** > **Domínios**
+3. Clique em **Adicionar Domínio**
+4. Digite seu domínio (ex: `gsconsignados.com.br`)
+5. Escolha o método "Meta tag HTML"
+6. Copie o código fornecido
+7. Cole no arquivo `index.html` conforme indicado acima
+8. Faça o deploy do site
+9. Volte ao Business Manager e clique em **Verificar Domínio**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 Deploy e Publicação
 
-## What technologies are used for this project?
+### Opção 1: Vercel (Recomendado)
+1. Conecte seu repositório GitHub ao Vercel
+2. Configure o domínio personalizado
+3. Ative HTTPS automático
 
-This project is built with:
+### Opção 2: Netlify
+1. Faça deploy via GitHub
+2. Configure domínio personalizado
+3. Force HTTPS nas configurações
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Opção 3: Servidor Próprio
+1. Execute `npm run build`
+2. Faça upload da pasta `dist/` para seu servidor
+3. Configure HTTPS (obrigatório para verificação da Meta)
+4. Configure redirecionamentos para SPA
 
-## How can I deploy this project?
+## 📋 Checklist Pré-Deploy
 
-Simply open [Lovable](https://lovable.dev/projects/598d5a2c-9567-4c1a-8521-846ff38d376e) and click on Share -> Publish.
+- [ ] Adicionar meta tag de verificação da Meta
+- [ ] Configurar domínio HTTPS
+- [ ] Testar formulário de contato
+- [ ] Verificar todas as páginas (/, /privacy, /terms)
+- [ ] Testar toggle de tema
+- [ ] Validar acessibilidade
+- [ ] Testar performance no PageSpeed Insights
 
-## Can I connect a custom domain to my Lovable project?
+## 🔗 Links Importantes
 
-Yes, you can!
+- **Contato**: contato@gsconsignados.com.br
+- **WhatsApp**: (11) 93804-3456
+- **CNPJ**: 39.443.872/0001-60
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📞 Suporte
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Para dúvidas sobre a implementação ou configuração, entre em contato através dos canais oficiais da GS PARTICIPAÇÕES LTDA.
+
+---
+
+© 2025 GS PARTICIPAÇÕES LTDA - Todos os direitos reservados.
