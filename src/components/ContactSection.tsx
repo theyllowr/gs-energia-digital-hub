@@ -99,7 +99,7 @@ const ContactSection: React.FC = () => {
             <Mail className="text-[var(--gs-accent)] mt-1" size={24} />
             <div>
               <h3 className="font-semibold mb-2">E-mail</h3>
-              <p>contato@gsconsignados.com.br</p>
+              <p>contato@gsparticipacoes.site</p>
             </div>
           </div>
           <Button

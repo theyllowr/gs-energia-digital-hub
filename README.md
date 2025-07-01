@@ -45,7 +45,7 @@ Site minimalista e moderno para holding e consultoria em eficiência energética
 - **CNAE**: K-6462-0/00 (Holdings de instituições não financeiras)
 - **Endereço**: Avenida Eldes Scherrer Souza, 1025 – Parque Residencial Laranjeiras, Serra-ES · CEP 29165-680
 - **Telefone**: (11) 93804-3456
-- **E-mail**: contato@gsconsignados.com.br
+- **E-mail**: contato@gsparticipacoes.site
 
 ## 🔧 Configuração da Meta Business Manager
 
@@ -68,7 +68,7 @@ Para verificar o domínio na Meta Business Manager, adicione a meta tag de verif
 1. Acesse o [Meta Business Manager](https://business.facebook.com/)
 2. Vá em **Configurações da Empresa** > **Domínios**
 3. Clique em **Adicionar Domínio**
-4. Digite seu domínio (ex: `gsconsignados.com.br`)
+4. Digite seu domínio (ex: `gsparticipacoes.site`)
 5. Escolha o método "Meta tag HTML"
 6. Copie o código fornecido
 7. Cole no arquivo `index.html` conforme indicado acima
@@ -105,7 +105,7 @@ Para verificar o domínio na Meta Business Manager, adicione a meta tag de verif
 
 ## 🔗 Links Importantes
 
-- **Contato**: contato@gsconsignados.com.br
+- **Contato**: contato@gsparticipacoes.site
 - **WhatsApp**: (11) 93804-3456
 - **CNPJ**: 39.443.872/0001-60
 

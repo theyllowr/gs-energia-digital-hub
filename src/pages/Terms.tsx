@@ -121,7 +121,7 @@ const Terms = () => {
             <div className="gs-muted p-4 rounded-lg">
               <p><strong>GS PARTICIPAÇÕES LTDA</strong></p>
               <p>CNPJ: 39.443.872/0001-60</p>
-              <p>E-mail: contato@gsconsignados.com.br</p>
+              <p>E-mail: contato@gsparticipacoes.site</p>
               <p>Telefone: (11) 93804-3456</p>
               <p>Endereço: Avenida Eldes Scherrer Souza, 1025 – Parque Residencial Laranjeiras, Serra-ES, CEP 29165-680</p>
             </div>
