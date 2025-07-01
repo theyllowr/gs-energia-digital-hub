@@ -1,29 +1,30 @@
-
+// src/components/HeroSection.tsx
 import React from 'react';
-import { Button } from "@/components/ui/button";
 import { Zap } from 'lucide-react';
 
-const HeroSection = () => {
+const HeroSection: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 py-20">
-      <div className="max-w-6xl mx-auto text-center fade-up">
-        <h1 className="text-responsive-5xl font-bold mb-6 leading-tight">
-          Eficiência energética que impulsiona 
-          <span className="gs-accent block mt-2">lucros e sustentabilidade.</span>
+    <section
+      id="hero"
+      className="bg-[var(--gs-bg)] text-[var(--gs-text)] py-20"
+    >
+      <div className="container mx-auto px-4 text-center">
+        <h1 className="clamp(2rem,6vw,4rem) font-bold mb-4">
+          Eficiência energética que impulsiona{' '}
+          <span className="text-[var(--gs-accent)]">
+            lucros e sustentabilidade.
+          </span>
         </h1>
-        
-        <p className="text-responsive-xl mb-8 max-w-3xl mx-auto opacity-90">
+        <p className="clamp(1rem,2.5vw,1.25rem) max-w-2xl mx-auto mb-8 opacity-90">
           Consultoria de ponta para reduzir custos, cortar emissões e modernizar sua operação.
         </p>
-        
-        <Button 
-          size="lg" 
-          className="gs-accent-bg hover:gs-accent-hover text-white text-responsive-lg px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 focus-visible:focus"
-          onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
+        {/* Link âncora para a seção de contato */}
+        <a
+          href="#contact"
+          className="inline-flex items-center bg-[var(--gs-accent)] hover:opacity-90 text-white font-semibold py-3 px-6 rounded-lg transition"
         >
-          Quero meu diagnóstico gratuito
-          <Zap className="ml-2" size={20} />
-        </Button>
+          Quero meu diagnóstico gratuito <Zap className="ml-2" size={20} />
+        </a>
       </div>
     </section>
   );
