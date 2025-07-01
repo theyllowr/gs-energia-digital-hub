@@ -1,22 +1,21 @@
-// tsconfig.json
 {
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "lib": ["ESNext"],
-    "types": ["vite/client", "node"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "strict": false,
+    "skipLibCheck": true,
     "esModuleInterop": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     },
-    "noImplicitAny": false,
-    "noUnusedParameters": false,
-    "noUnusedLocals": false,
-    "skipLibCheck": true,
-    "allowJs": true,
-    "strictNullChecks": false
+    "types": ["vite/client", "node"]
   },
   "include": [
     "src",

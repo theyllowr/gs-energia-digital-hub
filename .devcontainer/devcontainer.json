@@ -1,0 +1,8 @@
+{
+  "name": "GS Energia DevContainer",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:20", 
+  "features": {},
+  "extensions": [
+    "bradlc.vscode-tailwindcss"
+  ]
+}
