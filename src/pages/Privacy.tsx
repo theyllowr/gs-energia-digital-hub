@@ -102,7 +102,7 @@ const Privacy = () => {
               <p>CNPJ: 39.443.872/0001-60</p>
               <p>E-mail: contato@gsconsignados.com.br</p>
               <p>Telefone: (11) 93804-3456</p>
-              <p>Endereço: Rua Exemplo, 123 – Centro, Blumenau-SC, CEP 89036-239</p>
+              <p>Endereço: Avenida Eldes Scherrer Souza, 1025 – Parque Residencial Laranjeiras, Serra-ES, CEP 29165-680</p>
             </div>
           </section>
           

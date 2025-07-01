@@ -172,12 +172,15 @@ const Index = () => {
             Sobre a <span className="gs-accent">GS PARTICIPAÇÕES</span>
           </h2>
           
-          <div className="text-responsive-lg leading-relaxed text-center opacity-90">
+          <div className="text-responsive-lg leading-relaxed text-center opacity-90 space-y-4">
             <p>
-              A GS PARTICIPAÇÕES LTDA (CNPJ 39.443.872/0001-60) oferece soluções completas em eficiência energética. 
-              Unimos análise de dados, engenharia e tecnologia para entregar economia real e diminuir a pegada de carbono 
-              de empresas em todo o Brasil. Nossa abordagem une rentabilidade e responsabilidade ambiental, 
-              garantindo resultados mensuráveis em curto prazo.
+              A <strong>GS PARTICIPAÇÕES LTDA</strong> (CNPJ 39.443.872/0001-60) tem sede na Avenida Eldes Scherrer Souza, 1025 – Parque Residencial Laranjeiras, Serra-ES · CEP 29165-680 e seu <strong>foco principal de atuação é de Holdings de instituições não financeiras (CNAE K-6462-0/00)</strong>.
+            </p>
+            <p>
+              Em outras palavras, somos uma empresa criada para <strong>controlar e administrar participações</strong> em companhias dos mais diversos setores (comércio, indústria, tecnologia, agronegócio etc.), sem realizar atividades típicas do mercado financeiro como concessão de crédito, operações bancárias ou seguros. Essa estrutura societária permite centralizar a gestão do grupo, otimizar planejamento tributário e sucessório e elevar a governança corporativa.
+            </p>
+            <p>
+              Paralelamente, disponibilizamos ao mercado <strong>soluções completas em eficiência energética</strong>, unindo análise de dados, engenharia e tecnologia para entregar economia real e reduzir a pegada de carbono de empresas em todo o Brasil. Nossa abordagem equilibra rentabilidade e responsabilidade ambiental, garantindo resultados mensuráveis em curto prazo.
             </p>
           </div>
         </div>
@@ -368,8 +371,9 @@ const Index = () => {
                 <MapPin className="gs-accent mt-1" size={24} />
                 <div>
                   <h3 className="font-semibold text-responsive-lg mb-2">Endereço</h3>
-                  <p className="opacity-90">Rua Exemplo, 123 – Centro</p>
-                  <p className="opacity-90">CEP 89036-239 – Blumenau-SC</p>
+                  <p className="opacity-90">Avenida Eldes Scherrer Souza, 1025</p>
+                  <p className="opacity-90">Parque Residencial Laranjeiras</p>
+                  <p className="opacity-90">CEP 29165-680 – Serra-ES</p>
                 </div>
               </div>
               

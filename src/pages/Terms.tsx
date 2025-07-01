@@ -38,7 +38,7 @@ const Terms = () => {
               2. Descrição do Serviço
             </h2>
             <p>
-              A GS PARTICIPAÇÕES LTDA oferece serviços de consultoria em eficiência energética, incluindo auditoria energética, implantação de energia solar fotovoltaica e otimização via IoT.
+              A GS PARTICIPAÇÕES LTDA é uma holding de instituições não financeiras (CNAE K-6462-0/00) que oferece serviços de consultoria em eficiência energética, incluindo auditoria energética, implantação de energia solar fotovoltaica e otimização via IoT.
             </p>
           </section>
           
@@ -107,7 +107,7 @@ const Terms = () => {
               9. Lei Aplicável
             </h2>
             <p>
-              Estes Termos de Uso são regidos e interpretados de acordo com as leis brasileiras. Qualquer disputa será resolvida nos tribunais competentes de Blumenau, Santa Catarina.
+              Estes Termos de Uso são regidos e interpretados de acordo com as leis brasileiras. Qualquer disputa será resolvida nos tribunais competentes de Serra, Espírito Santo.
             </p>
           </section>
           
@@ -123,7 +123,7 @@ const Terms = () => {
               <p>CNPJ: 39.443.872/0001-60</p>
               <p>E-mail: contato@gsconsignados.com.br</p>
               <p>Telefone: (11) 93804-3456</p>
-              <p>Endereço: Rua Exemplo, 123 – Centro, Blumenau-SC, CEP 89036-239</p>
+              <p>Endereço: Avenida Eldes Scherrer Souza, 1025 – Parque Residencial Laranjeiras, Serra-ES, CEP 29165-680</p>
             </div>
           </section>
         </div>

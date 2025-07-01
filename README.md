@@ -1,7 +1,7 @@
 
 # GS PARTICIPAÇÕES LTDA - Site Institucional
 
-Site minimalista e moderno para consultoria em eficiência energética, otimizado para verificação da Business Manager da Meta.
+Site minimalista e moderno para holding e consultoria em eficiência energética, otimizado para verificação da Business Manager da Meta.
 
 ## 🚀 Características Técnicas
 
@@ -16,7 +16,7 @@ Site minimalista e moderno para consultoria em eficiência energética, otimizad
 ## 📱 Funcionalidades
 
 - ✅ Hero section com CTA otimizado
-- ✅ Seção sobre a empresa
+- ✅ Seção sobre a empresa (holding + eficiência energética)
 - ✅ Cards de soluções (3 serviços)
 - ✅ Timeline do processo
 - ✅ Contadores animados de resultados
@@ -37,6 +37,15 @@ Site minimalista e moderno para consultoria em eficiência energética, otimizad
 - Fundo: `#0E0E0E`
 - Texto: `#F5F5F5`
 - Destaque: `#3AF58A`
+
+## 🏢 Informações da Empresa
+
+- **Razão Social**: GS PARTICIPAÇÕES LTDA
+- **CNPJ**: 39.443.872/0001-60
+- **CNAE**: K-6462-0/00 (Holdings de instituições não financeiras)
+- **Endereço**: Avenida Eldes Scherrer Souza, 1025 – Parque Residencial Laranjeiras, Serra-ES · CEP 29165-680
+- **Telefone**: (11) 93804-3456
+- **E-mail**: contato@gsconsignados.com.br
 
 ## 🔧 Configuração da Meta Business Manager
 
